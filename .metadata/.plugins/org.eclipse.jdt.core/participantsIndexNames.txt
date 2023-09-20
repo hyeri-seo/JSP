@@ -1,0 +1,13 @@
+INDEX VERSION 1.131
+C:\Users\Owner\Desktop\kosta\jsp-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2692963168.index
+\BankProj\src\main\java
+C:\Users\Owner\Desktop\kosta\jsp-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1403570784.index
+\Hello\src\main\java
+C:\Users\Owner\Desktop\kosta\jsp-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3996145768.index
+\BankProj\src\main\java
+C:\Users\Owner\Desktop\kosta\jsp-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\307461963.index
+\Hello\src\main\java
+C:\Users\Owner\Desktop\kosta\jsp-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1223274783.index
+\JspExam5\src\main\java
+C:\Users\Owner\Desktop\kosta\jsp-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\948146744.index
+\JspExam\src\main\java
