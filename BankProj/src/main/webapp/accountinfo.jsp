@@ -1,9 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ page import="dto.Account" %>
+<%@ page import="dto.Account" %>    
 <%
 	Account acc = (Account)request.getAttribute("acc");
-%>
+%>    
 <!DOCTYPE html>
 <html>
 <head>
@@ -47,9 +47,9 @@
     </style>
 </head>
 <body>
-   <div>
+   <center>
         <div class="header">
-            <h3>계좌조회</h3>
+            <h3>계좌조회</h3>
         </div>
 
         <div class="container" id='result'>
@@ -58,7 +58,7 @@
                 <div class="input"><input type="text" name="id" id='id' disabled value=<%=acc.getId() %>></div>
             </div>
             <div class="row">
-                <div class="title">이름</div>
+                <div class="title">이름</div>
                 <div class="input"><input type="text" name="name" id='name' disabled value=<%=acc.getName() %>></div>
             </div>
             <div class="row">
@@ -66,14 +66,14 @@
                 <div class="input"><input type="text" name="money" id='money' disabled value=<%=acc.getBalance() %>></div>
             </div>
             <div class="row">
-                <div class="title">종류</div>
+                <div class="title">종류</div>
                 <div class="input"><input type="text" name="type" id='type' disabled value=<%=acc.getType() %>></div>
             </div>
             <div class="row">
-                <div class="title">등급</div>
+                <div class="title">등급</div>
                 <div class="input"><input type="text" name="grade" id='grade' disabled value=<%=acc.getGrade() %>></div>
             </div>
         </div>
-    </div>
+    </center>
 </body>
 </html>

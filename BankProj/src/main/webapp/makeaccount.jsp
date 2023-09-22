@@ -41,7 +41,7 @@
     </style>
 </head>
 <body>
-    <div>
+    <center>
         <form action="makeAccount" method="post">
             <div class="header">
                 <h3>계좌개설</h3>
@@ -52,7 +52,7 @@
                     <div class="input"><input type="text" name="id" id='id'></div>
                 </div>
                 <div class="row">
-                    <div class="title">이름</div>
+                    <div class="title">이름</div>
                     <div class="input"><input type="text" name="name" id='name'></div>
                 </div>
                 <div class="row">
@@ -60,10 +60,10 @@
                     <div class="input"><input type="text" name="money" id='money'></div>
                 </div>
                 <div class="row">
-                    <div class="title">종류</div>
+                    <div class="title">종류</div>
                     <div class="input">
-                        <input type="radio" name="type" value="normal" checked>일반
-                        <input type="radio" name="type" value="special">특수
+                        <input type="radio" name="type" value="normal" checked>일반
+                        <input type="radio" name="type" value="special">특수
                     </div>
                 </div>
                 <div class="row">
@@ -82,7 +82,7 @@
                 </div>
             </div>
         </form>
-    </div>
+    </center>
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script>
         $('input[type="radio"]').change(function() {

@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-    <style>
+   <style>
         body {
             margin: 0 auto;
             
@@ -43,25 +43,25 @@
     </style>
 </head>
 <body>
-    <center>
+<center>
         <div class="header">
-            <h3>입 금</h3>
+            <h3>로그인</h3>
         </div>
-        <div class="container" id='deposit'>
-            <form id='form' action="deposit" method="post">
+        <div class="container" id='query'>
+            <form action="login" method="post" id='form'>
                 <div class="row">
-                    <div class="title">계좌번호</div>
+                    <div class="title">아이디</div>
                     <div class="input"><input type="text" name="id"></div>
                 </div>
                 <div class="row">
-                    <div class="title">입금액</div>
-                    <div class="input"><input type="text" name="money"></div>
+                    <div class="title">비밀번호</div>
+                    <div class="input"><input type="password" name="password"></div>
                 </div>
                 <div class="button">
-                    <input type="submit" value="입 금">
+                    <input type="submit" value="로그인">
                 </div>
             </form>
-        </div>
-    </center>
+        </div>	
+</center>
 </body>
 </html>
