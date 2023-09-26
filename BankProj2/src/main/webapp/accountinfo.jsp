@@ -1,9 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ page import="dto.Account" %>    
-<%
-	Account acc = (Account)request.getAttribute("acc");
-%>    
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -47,7 +44,7 @@
     </style>
 </head>
 <body>
-<% pageContext.include("header.jsp"); %>
+<jsp:include page="header.jsp"/>
    <center>
         <div class="header">
             <h3>계좌조회</h3>
@@ -55,24 +52,24 @@
 
         <div class="container" id='result'>
             <div class="row">
-                <div class="title">계좌번호</div>
-                <div class="input"><input type="text" name="id" id='id' disabled value=<%=acc.getId() %>></div>
+                <div class="title">계좌번호</div>
+                <div class="input"><input type="text" name="id" id='id' disabled value="${acc.id}"></div>
             </div>
             <div class="row">
                 <div class="title">이름</div>
-                <div class="input"><input type="text" name="name" id='name' disabled value=<%=acc.getName() %>></div>
+                <div class="input"><input type="text" name="name" id='name' disabled value="${acc.name }"></div>
             </div>
             <div class="row">
                 <div class="title">입금액</div>
-                <div class="input"><input type="text" name="money" id='money' disabled value=<%=acc.getBalance() %>></div>
+                <div class="input"><input type="text" name="money" id='money' disabled value="${acc.balance }">></div>
             </div>
             <div class="row">
                 <div class="title">종류</div>
-                <div class="input"><input type="text" name="type" id='type' disabled value=<%=acc.getType() %>></div>
+                <div class="input"><input type="text" name="type" id='type' disabled value="${acc.type }"></div>
             </div>
             <div class="row">
-                <div class="title">등급</div>
-                <div class="input"><input type="text" name="grade" id='grade' disabled value=<%=acc.getGrade() %>></div>
+                <div class="title">등급</div>
+                <div class="input"><input type="text" name="grade" id='grade' disabled value="${acc.grade }" ></div>
             </div>
         </div>
     </center>

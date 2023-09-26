@@ -43,7 +43,7 @@
 <body>
 <% pageContext.include("header.jsp"); %>
     <center>
-        <form action="makeAccount" method="post">
+        <form action="makeaccount" method="post">
             <div class="header">
                 <h3>계좌개설</h3>
             </div>
@@ -53,7 +53,7 @@
                     <div class="input"><input type="text" name="id" id='id'></div>
                 </div>
                 <div class="row">
-                    <div class="title">이름</div>
+                    <div class="title">이름</div>
                     <div class="input"><input type="text" name="name" id='name'></div>
                 </div>
                 <div class="row">
@@ -63,23 +63,23 @@
                 <div class="row">
                     <div class="title">종류</div>
                     <div class="input">
-                        <input type="radio" name="type" value="normal" checked>일반
-                        <input type="radio" name="type" value="special">특수
+                        <input type="radio" name="type" value="normal" checked>일반
+                        <input type="radio" name="type" value="special">특수
                     </div>
                 </div>
                 <div class="row">
-                    <div class="title">등급</div>
+                    <div class="title">등급</div>
                     <div class="input">
                         <select disabled id='grade' name="grade">
-                            <option value="VIP">VIP</option>
-                            <option value="Gold">Gold</option>
-                            <option value="Silver">Silver</option>
-                            <option value="Normal">Normal</option>
+                            <option>VIP</option>
+                            <option>Gold</option>
+                            <option>Silver</option>
+                            <option>Normal</option>
                         </select>
                     </div>
                 </div>
                 <div class="button">
-                    <input type="submit" id="makeBtn" value="개설">
+                    <input type="submit" id="makeBtn" value="제출">
                 </div>
             </div>
         </form>
